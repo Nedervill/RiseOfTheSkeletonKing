@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615311ff32144d42b2a9b66668a49a6, type: 3}
+  m_Name: SkeleMagerStats
+  m_EditorClassIdentifier: 
+  theName: Skeleton Mage
+  deadSprite: {fileID: 21300000, guid: bcdb0ba1ade3e6a47a15cbc870f490df, type: 3}
+  prefub: {fileID: 8501379574057710835, guid: 177d725af4ccec741aa9756c8dae9ef1, type: 3}
+  cost: 400
+  spawnSound: {fileID: 8300000, guid: cddaef60b67611c4988bf39be1c55abf, type: 3}
+  moveSpeed: 2
+  ranged: 1
+  range: 8
+  rangedDamage: 45
+  attackSpeed: 2
+  meeleDamage: 1
+  meeleRange: 1.2
+  energyPerAttack: 35
+  meeleAoe: 0
+  meeleAoeRange: 0
+  meelePushForce: 0
+  normalAttackSound: {fileID: 8300000, guid: 6d336acb563b55547a55ee9e9b0a47a4, type: 3}
+  rangedAttackSound: {fileID: 8300000, guid: dce888c392ea7f244aa24013de4cf7f6, type: 3}
+  meeleAttackMat: Fire
+  specialDamage: 50
+  specialPushForce: 0
+  specialAoe: 1
+  specialAoeRange: 2
+  specialAttackSound: {fileID: 8300000, guid: a39f4ce09c70bdd4096691b4f774ffa6, type: 3}
+  specialAbilitySound1: {fileID: 0}
+  specialAbilitySound2: {fileID: 0}
+  specialAttackMat: 
+  targetPriority: 1
+  health: 60
+  hitSound: {fileID: 8300000, guid: 317261a8882e490489cb42b7bd54d9b4, type: 3}
+  deathSound: {fileID: 8300000, guid: 7a92eef9f7a7301418f9c6ee3a468d77, type: 3}
+  ArmourMat: Flesh
+  specialAbilityText: 'Firing a fell energy bal, dealing everyone 50 DMG in an area
+    of 2 '
+  specialPassiveText: 

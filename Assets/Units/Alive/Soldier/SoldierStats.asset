@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615311ff32144d42b2a9b66668a49a6, type: 3}
+  m_Name: SoldierStats
+  m_EditorClassIdentifier: 
+  theName: Soldier
+  deadSprite: {fileID: 0}
+  prefub: {fileID: 7872434767586391905, guid: 8c4b27b434f1453449549deb0627b3d9, type: 3}
+  cost: 100
+  spawnSound: {fileID: 0}
+  moveSpeed: 2
+  ranged: 0
+  range: 0
+  rangedDamage: 0
+  attackSpeed: 4
+  meeleDamage: 10
+  meeleRange: 1.2
+  energyPerAttack: 25
+  meeleAoe: 0
+  meeleAoeRange: 2
+  meelePushForce: 0
+  normalAttackSound: {fileID: 8300000, guid: 6ed96cb181a07664b91369829cf38eca, type: 3}
+  rangedAttackSound: {fileID: 0}
+  meeleAttackMat: Metal
+  specialDamage: 40
+  specialPushForce: 0
+  specialAoe: 0
+  specialAoeRange: 0
+  specialAttackSound: {fileID: 8300000, guid: 44e339e1cacd29444becc7df1eebcb41, type: 3}
+  specialAbilitySound1: {fileID: 0}
+  specialAbilitySound2: {fileID: 0}
+  specialAttackMat: Metal
+  targetPriority: 2
+  health: 100
+  hitSound: {fileID: 8300000, guid: ee637b04a9d985b4ea3f1cd8c73a14b6, type: 3}
+  deathSound: {fileID: 8300000, guid: f82480c02054078418ebb8556c99d3ed, type: 3}
+  ArmourMat: Metal
+  specialAbilityText: 'A stabbing atack of 40 DMG. '
+  specialPassiveText: 'Provokes enemeis to attack him in a meele range. '

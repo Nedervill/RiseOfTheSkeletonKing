@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615311ff32144d42b2a9b66668a49a6, type: 3}
+  m_Name: SkeleArcherStats
+  m_EditorClassIdentifier: 
+  theName: Skeleton Archer
+  deadSprite: {fileID: 21300000, guid: e4830c48a500b074ba68443e2de6c8c8, type: 3}
+  prefub: {fileID: 8501379574057710835, guid: 6ef8d95524b78ec45b7a7158caf8ed30, type: 3}
+  cost: 200
+  spawnSound: {fileID: 8300000, guid: 0475f27e7e3b7c9489206d34c69d4517, type: 3}
+  moveSpeed: 3
+  ranged: 1
+  range: 8
+  rangedDamage: 8
+  attackSpeed: 6
+  meeleDamage: 1
+  meeleRange: 1.2
+  energyPerAttack: 25
+  meeleAoe: 0
+  meeleAoeRange: 2
+  meelePushForce: 0
+  normalAttackSound: {fileID: 8300000, guid: c88ddd154a2528244a04217aeea93e26, type: 3}
+  rangedAttackSound: {fileID: 8300000, guid: 2730d70f1197b3849908418fbd3d0da5, type: 3}
+  meeleAttackMat: Wood
+  specialDamage: 35
+  specialPushForce: 0
+  specialAoe: 0
+  specialAoeRange: 0
+  specialAttackSound: {fileID: 8300000, guid: dd51510e72900b947b80bfed414b32e3, type: 3}
+  specialAbilitySound1: {fileID: 0}
+  specialAbilitySound2: {fileID: 0}
+  specialAttackMat: 
+  targetPriority: 1
+  health: 45
+  hitSound: {fileID: 8300000, guid: 87c030684281f344f93131dd3848cbfd, type: 3}
+  deathSound: {fileID: 8300000, guid: d9ab0a8ba57c903429130865f236890e, type: 3}
+  ArmourMat: Flesh
+  specialAbilityText: A sniper shot dealing 35 DMG to the target
+  specialPassiveText: 

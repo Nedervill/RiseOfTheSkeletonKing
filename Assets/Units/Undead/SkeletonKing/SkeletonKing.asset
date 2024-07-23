@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615311ff32144d42b2a9b66668a49a6, type: 3}
+  m_Name: SkeletonKing
+  m_EditorClassIdentifier: 
+  theName: Skeleton King
+  deadSprite: {fileID: 0}
+  prefub: {fileID: 0}
+  cost: 0
+  spawnSound: {fileID: 0}
+  moveSpeed: 1
+  ranged: 1
+  range: 7
+  rangedDamage: 15
+  attackSpeed: 3
+  meeleDamage: 30
+  meeleRange: 1.5
+  energyPerAttack: 35
+  meeleAoe: 1
+  meeleAoeRange: 1
+  meelePushForce: 150
+  normalAttackSound: {fileID: 8300000, guid: c17a0515cbae8814bb02b561cd369c4e, type: 3}
+  rangedAttackSound: {fileID: 8300000, guid: 7780f005d21880d47a7af04084c475e7, type: 3}
+  meeleAttackMat: Metal
+  specialDamage: 0
+  specialPushForce: 0
+  specialAoe: 0
+  specialAoeRange: 0
+  specialAttackSound: {fileID: 8300000, guid: c562a0cd44ddbcb4e97ff14e26bf1ac5, type: 3}
+  specialAbilitySound1: {fileID: 0}
+  specialAbilitySound2: {fileID: 0}
+  specialAttackMat: 
+  targetPriority: 1
+  health: 300
+  hitSound: {fileID: 8300000, guid: 74c5e015c0c33dc49a450f9fed76005f, type: 3}
+  deathSound: {fileID: 8300000, guid: 41c3ea256687f5f448c0842a56d572cf, type: 3}
+  ArmourMat: Metal
+  specialAbilityText: Get the necrotic spells enhanced
+  specialPassiveText: Regular meele attacks launches enemies into air
